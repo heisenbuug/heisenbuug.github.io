@@ -4,9 +4,10 @@ title: "Community Bonding"
 date: 2021-06-07
 categories: gsoc
 ---
-<p align="conter">
+<p align="center">
   <img src="/images/gsoc-logo.png" width=400 height=200>  
-
+</p>
+<p align="center">
   <img src="/images/mlpack-logo.png">  
 </p>
 
