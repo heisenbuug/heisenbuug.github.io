@@ -4,9 +4,9 @@ title: "Community Bonding"
 date: 2021-06-07
 categories: gsoc
 ---
-<img src="/images/gsoc-logo.png" width=400 height=200>
+<img src="/images/gsoc-logo.png" width=400 height=200>  
 
-<img src="/images/mlpack-logo.png">
+<img src="/images/mlpack-logo.png">  
 
 Mlpack is an awesome community. We also have a tradition of having video meet-up on 1st and 3rd friday of every month.
 [Marcus Edel](https://github.com/zoq) sent us a detailed mail about how mlpack goes around GSoC and some other useful information.
