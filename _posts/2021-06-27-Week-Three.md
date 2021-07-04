@@ -16,7 +16,7 @@ This was an exciting week. I was finally going to remove `load.cpp` but well, wh
 As soon as I removed `load.cpp` I was bombarded with include errors(which was expected). Upon solving some we realised that the `load.hpp` might require some changes in the way it defines fucntions. At this point [Omar](https://github.com/shrit) suggested to use `SFINAE`.
 
 
-SFINAE applies during overload resolution of function templates: When substituting the explicitly specified or deduced type for the template parameter fails, the specialization is discarded from the overload set instead of causing a compile error.
+`SFINAE`(substituion failure is not an error) applies during overload resolution of function templates: When substituting the explicitly specified or deduced type for the template parameter fails, the specialization is discarded from the overload set instead of causing a compile error.
 
 This feature is used in template metaprogramming.
 
