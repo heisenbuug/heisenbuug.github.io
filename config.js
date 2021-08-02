@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://lumen.netlify.com',
-  pathPrefix: '/heisenbuug.github.io',
+  pathPrefix: '/',
   title: 'Blog by Gopi Tatiraju',
   subtitle: 'Computer Engineer | Open Source Developer',
   copyright: '© All rights reserved.',

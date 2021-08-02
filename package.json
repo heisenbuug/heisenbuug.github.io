@@ -16,7 +16,7 @@
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
-  "repository": "https://github.com/heisenbuug/",
+  "repository": "https://github.com/heisenbuug/heisenbuug.github.io",
   "author": "Gopi M. Tatiraju <deathcoderx@gmail.com>",
   "license": "MIT",
   "keywords": [
