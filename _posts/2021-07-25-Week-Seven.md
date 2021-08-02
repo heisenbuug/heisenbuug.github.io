@@ -1,3 +1,4 @@
+---
 layout: post
 title: "End of Week Seven"
 date: 2021-07-25
