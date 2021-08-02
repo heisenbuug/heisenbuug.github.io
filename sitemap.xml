@@ -3,11 +3,11 @@
 <url> <loc>https://lumen.netlify.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/gsoc-2021-mlpack</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/posts/week-two</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/posts/week-one</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/community-bonding</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/posts/week-one</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/posts/week-two</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/week-four</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/week-three</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/week-five</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
