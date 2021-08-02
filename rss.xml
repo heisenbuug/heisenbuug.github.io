@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Gopi Tatiraju]]></title><description><![CDATA[Computer Engineer | Open Source Developer]]></description><link>https://lumen.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 02 Aug 2021 16:12:23 GMT</lastBuildDate><item><title><![CDATA[Experience: Week Seven]]></title><description><![CDATA[Nearly done with removing boost::spirit. Although I need to focus more on failing test cases and make necessary changes to the code. Boost was doing a lot of work behind the scenes, it kinda a lot of work to see and replace eveything but it's fun to explore soo much code.]]></description><link>https://lumen.netlify.com/posts/week-seven</link><guid isPermaLink="false">https://lumen.netlify.com/posts/week-seven</guid><pubDate>Sun, 25 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQklEQVQ4y5VUWYviQBDudJtrjLk8RjzQicaArA/ig6IIPnjAuK4weIIMi4ooui+OiLvCvvi6f8B/u2XHOA7jsjNFCN3V9dX3VVcqCN0yhr6/ItS42n7I7FDM8y+C8EMUEc9/Ds9xnGVZPM8LgpCyLJbjPszMsoZpSm63vZVlOR2Pu/6vlmEkhH56PJYknZTb+hGacVyWkIvnn6UmNO0XIREHBhYJh9OSZAWDblm+XTzDnJy63x+Lx69zBSKRaDQKC5Zlk6Z5R/E3OAE0kmUWn/gI9ZQI+a2q2El9Lwg9TbujVG8TsOwXXW9wnE/TLuA8QltRVDweW5uK0BMhMVV9Kx7jh2RSpbAHw1B8vkshDCEJuHmKtz2xWEzz+89bcDyKYlpRzgoIefJ67Quz+Q2e/y7LgqOWw/iPohSQE9GGfBcR8FUyTA5UYGyD7xGqIyQ6AdDwFULZ2w2j6f2BQNi59s+Z3d5vXu8z/SqZd7197zlx2obp5hGhF6cljKPoWt2rwQy4XC5RFDHG1WoV5gGGAR6IkyTJjoZTWNdqNTiF4DOyUqmsVqvpdDqZTMrlcq/Xa7fb4Ol0OrquLxaLZrNpGMZyuSwUCrPZDLYwc2fweDwuFosAzufzgGk0GpvNJpPJjEajwWAAubbb7W63SyQSEHw8Hg+Hw6v4Vqtlmma9Xk+lUv1+H8ghxX6/BySQr9fr+XwO6oA5l8t1u93hcJjNOs2CAqBU+83RGy6VSnAMtcE6GAzy9GcSCoVUVQVCiHTTaf8LdH5P2z6f/EcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            alt=&quot;mlpack-logo.png&quot;
+            title=&quot;mlpack-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVQoz41Pu07DQBD059Ag0VAhBFT8ATUSDQ1fAA0l4kuo+ACgQCgQGQcURYHIj3MimfghO44fhKzvYTYmOgUIIaO71dzuzWhWYbxcHqKCfCrNHhROr8xNe5Ca5AWCoO/7aZqGYRjHAwTyLMuwOo4TRRFyHLmuSylVVP0jub0qvcuLJ1+7uaZmp/vWNw3dti1id4llEUJQ41RAL8/z9AroovBpbDF85z9XEGO8i2LL/iwRI8KGGrwesbgmRtaXTNbf4nLaFwwLJWdwv1rUVuBhrTBOvrvPE1cfJrlZ0oDWPqgb0NidnOYei+/k9B8xzzvQPoTHbdB2oL5etA948ryEWMa2z8fqFmYGdZOap8vFlg4Q8FwH45ilLeRzlX+KZ7YQC+afwIVvbtxrghYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            alt=&quot;gsoc-logo.png&quot;
+            title=&quot;gsoc-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This week I continued my working on removing boost::spirit and nearly completed it. There are some
+tests that are failing which takes priority this week.&lt;/p&gt;
+&lt;p&gt;This week I was feeling pretty good about the code, I think it might be due to the fact that now
+I’ve spent soo much time with the codebase I can understand it better.&lt;/p&gt;
+&lt;p&gt;So basically I am nearly done replacing the boost. Actually we removed the parser part but still
+need to check on what &lt;code class=&quot;language-text&quot;&gt;boost::trim&lt;/code&gt; was exactly doing and remove the &lt;code class=&quot;language-text&quot;&gt;Load.cpp&lt;/code&gt; file and make sure
+it is not breaking the code.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/conradsnicta&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Conrad&lt;/a&gt; suggested another feature to speed up the parser,
+this was his exact comment&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;In Armadillo 10.6 I&apos;ve implemented a multi-threaded CSV reader with the help
+of OpenMP directives.
+
+The new code is in diskio::load_csv_ascii(), currently on lines 1618-1761
+https://gitlab.com/conradsnicta/armadillo-code/-/blob/10.6.x/include/armadillo_bits/diskio_meat.hpp#L1618-1761
+
+In essence, instead of converting each token directly after reading into a
+numerical value, all the tokens in each line are first read into an array.
+The stored tokens are then converted into numerical values, within a
+parallelised loop.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We decided to work on this once we are able to integrate the current improved parser. This can be
+a great speed up to the parser and I am really looking forward to working on it. Thank you Conrad
+for reviewing the code and keeping an eye on the project.&lt;/p&gt;
+&lt;p&gt;Also while testing we kinda discovered a small bug. I opened an issue for the same. You can have a
+look, &lt;a href=&quot;https://github.com/mlpack/mlpack/issues/3024&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Mlpack not handling Quoted quotes&lt;/a&gt;
+when parsing non-numeric data.&lt;/p&gt;
+&lt;p&gt;I will work on it once I will complete my basic goal of replacing &lt;code class=&quot;language-text&quot;&gt;boost&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I will talk about some other failing cases next week as I am yet to work on them and hopefully
+I will remove &lt;code class=&quot;language-text&quot;&gt;Load.cpp&lt;/code&gt; file in the coming week.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Experience: Week Six]]></title><description><![CDATA[This week was a lot about dealing with errors. Never thought fucntion overloading will make me go crazy like this. But well you know what mix it with C++ 11 and templates and add a small pinch of cmake, you will definitely go crazy.]]></description><link>https://lumen.netlify.com/posts/week-six</link><guid isPermaLink="false">https://lumen.netlify.com/posts/week-six</guid><pubDate>Sun, 18 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQklEQVQ4y5VUWYviQBDudJtrjLk8RjzQicaArA/ig6IIPnjAuK4weIIMi4ooui+OiLvCvvi6f8B/u2XHOA7jsjNFCN3V9dX3VVcqCN0yhr6/ItS42n7I7FDM8y+C8EMUEc9/Ds9xnGVZPM8LgpCyLJbjPszMsoZpSm63vZVlOR2Pu/6vlmEkhH56PJYknZTb+hGacVyWkIvnn6UmNO0XIREHBhYJh9OSZAWDblm+XTzDnJy63x+Lx69zBSKRaDQKC5Zlk6Z5R/E3OAE0kmUWn/gI9ZQI+a2q2El9Lwg9TbujVG8TsOwXXW9wnE/TLuA8QltRVDweW5uK0BMhMVV9Kx7jh2RSpbAHw1B8vkshDCEJuHmKtz2xWEzz+89bcDyKYlpRzgoIefJ67Quz+Q2e/y7LgqOWw/iPohSQE9GGfBcR8FUyTA5UYGyD7xGqIyQ6AdDwFULZ2w2j6f2BQNi59s+Z3d5vXu8z/SqZd7197zlx2obp5hGhF6cljKPoWt2rwQy4XC5RFDHG1WoV5gGGAR6IkyTJjoZTWNdqNTiF4DOyUqmsVqvpdDqZTMrlcq/Xa7fb4Ol0OrquLxaLZrNpGMZyuSwUCrPZDLYwc2fweDwuFosAzufzgGk0GpvNJpPJjEajwWAAubbb7W63SyQSEHw8Hg+Hw6v4Vqtlmma9Xk+lUv1+H8ghxX6/BySQr9fr+XwO6oA5l8t1u93hcJjNOs2CAqBU+83RGy6VSnAMtcE6GAzy9GcSCoVUVQVCiHTTaf8LdH5P2z6f/EcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            alt=&quot;mlpack-logo.png&quot;
+            title=&quot;mlpack-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVQoz41Pu07DQBD059Ag0VAhBFT8ATUSDQ1fAA0l4kuo+ACgQCgQGQcURYHIj3MimfghO44fhKzvYTYmOgUIIaO71dzuzWhWYbxcHqKCfCrNHhROr8xNe5Ca5AWCoO/7aZqGYRjHAwTyLMuwOo4TRRFyHLmuSylVVP0jub0qvcuLJ1+7uaZmp/vWNw3dti1id4llEUJQ41RAL8/z9AroovBpbDF85z9XEGO8i2LL/iwRI8KGGrwesbgmRtaXTNbf4nLaFwwLJWdwv1rUVuBhrTBOvrvPE1cfJrlZ0oDWPqgb0NidnOYei+/k9B8xzzvQPoTHbdB2oL5etA948ryEWMa2z8fqFmYGdZOap8vFlg4Q8FwH45ilLeRzlX+KZ7YQC+afwIVvbtxrghYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            alt=&quot;gsoc-logo.png&quot;
+            title=&quot;gsoc-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;So last week I was facing an error reading the overloads of the &lt;code class=&quot;language-text&quot;&gt;Load()&lt;/code&gt; where basically it was
+ambiguous of the compiler to decide which overload to pick while loading data in the
+matrix(only-numeric data). I think I should have mentioned this in the previous blogs maybe but
+mlpack basically has many overloads of &lt;code class=&quot;language-text&quot;&gt;Load()&lt;/code&gt; which loads different formats of data into their
+corresponding data-structure. Just to name some&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Load in a matrix, only numeric data&lt;/li&gt;
+&lt;li&gt;Load in a matrix with &lt;code class=&quot;language-text&quot;&gt;DatasetMapper&lt;/code&gt;, non-numeric data&lt;/li&gt;
+&lt;li&gt;Load in sparse matrix&lt;/li&gt;
+&lt;li&gt;Load image&lt;/li&gt;
+&lt;li&gt;Load a model&lt;/li&gt;
+&lt;li&gt;Load in a row vector&lt;/li&gt;
+&lt;li&gt;Load in a column vector&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We have great many to explore in mlpack.
+So currently the issue was with loading of sparse matrix. For now we decided to comment that
+defination so that we can focus on the parser. Also we can handle that case easily.&lt;/p&gt;
+&lt;p&gt;So now the tests were running successfully. But obviously they were failing. The file which tests
+the loading and saving of data in &lt;a href=&quot;https://github.com/mlpack/mlpack/blob/master/src/mlpack/tests/load_save_test.cpp&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;mlpack/src/mlpack/tests/load_save_test.cpp&lt;/code&gt;&lt;/a&gt;.
+After successfully handling all the fail cases it was time to move to last two fucntions which
+uses &lt;code class=&quot;language-text&quot;&gt;boost::spirit&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The current implemntation basically had a lambda fucntion combined with &lt;code class=&quot;language-text&quot;&gt;boost::parse&lt;/code&gt; to identify
+the delimiter and parse the line accordingly and at the end of parsing update the &lt;code class=&quot;language-text&quot;&gt;DatasetMapper&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In these tasks I am spending more time in testing rather than writing the code itself as we can
+have a large number of cases for parser and thanks to already well implemented tests in mlpack I
+have a basic goal of passing all the current test cases and then think about if we need new tests
+based on our new implementation.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Experience: Week Five]]></title><description><![CDATA[This week was more about exploring the code rather than adding new code. I was really amazed to see some implementations. I wish I get to see such amazing code eveyday. Thanks to open-source community.]]></description><link>https://lumen.netlify.com/posts/week-five</link><guid isPermaLink="false">https://lumen.netlify.com/posts/week-five</guid><pubDate>Sun, 11 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQklEQVQ4y5VUWYviQBDudJtrjLk8RjzQicaArA/ig6IIPnjAuK4weIIMi4ooui+OiLvCvvi6f8B/u2XHOA7jsjNFCN3V9dX3VVcqCN0yhr6/ItS42n7I7FDM8y+C8EMUEc9/Ds9xnGVZPM8LgpCyLJbjPszMsoZpSm63vZVlOR2Pu/6vlmEkhH56PJYknZTb+hGacVyWkIvnn6UmNO0XIREHBhYJh9OSZAWDblm+XTzDnJy63x+Lx69zBSKRaDQKC5Zlk6Z5R/E3OAE0kmUWn/gI9ZQI+a2q2El9Lwg9TbujVG8TsOwXXW9wnE/TLuA8QltRVDweW5uK0BMhMVV9Kx7jh2RSpbAHw1B8vkshDCEJuHmKtz2xWEzz+89bcDyKYlpRzgoIefJ67Quz+Q2e/y7LgqOWw/iPohSQE9GGfBcR8FUyTA5UYGyD7xGqIyQ6AdDwFULZ2w2j6f2BQNi59s+Z3d5vXu8z/SqZd7197zlx2obp5hGhF6cljKPoWt2rwQy4XC5RFDHG1WoV5gGGAR6IkyTJjoZTWNdqNTiF4DOyUqmsVqvpdDqZTMrlcq/Xa7fb4Ol0OrquLxaLZrNpGMZyuSwUCrPZDLYwc2fweDwuFosAzufzgGk0GpvNJpPJjEajwWAAubbb7W63SyQSEHw8Hg+Hw6v4Vqtlmma9Xk+lUv1+H8ghxX6/BySQr9fr+XwO6oA5l8t1u93hcJjNOs2CAqBU+83RGy6VSnAMtcE6GAzy9GcSCoVUVQVCiHTTaf8LdH5P2z6f/EcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            alt=&quot;mlpack-logo.png&quot;
+            title=&quot;mlpack-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVQoz41Pu07DQBD059Ag0VAhBFT8ATUSDQ1fAA0l4kuo+ACgQCgQGQcURYHIj3MimfghO44fhKzvYTYmOgUIIaO71dzuzWhWYbxcHqKCfCrNHhROr8xNe5Ca5AWCoO/7aZqGYRjHAwTyLMuwOo4TRRFyHLmuSylVVP0jub0qvcuLJ1+7uaZmp/vWNw3dti1id4llEUJQ41RAL8/z9AroovBpbDF85z9XEGO8i2LL/iwRI8KGGrwesbgmRtaXTNbf4nLaFwwLJWdwv1rUVuBhrTBOvrvPE1cfJrlZ0oDWPqgb0NidnOYei+/k9B8xzzvQPoTHbdB2oL5etA948ryEWMa2z8fqFmYGdZOap8vFlg4Q8FwH45ilLeRzlX+KZ7YQC+afwIVvbtxrghYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            alt=&quot;gsoc-logo.png&quot;
+            title=&quot;gsoc-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;End of week 5 was a bit progressive, although I didn’t write much code I went though a whole lot
+of code related to &lt;code class=&quot;language-text&quot;&gt;DatasetMapper&lt;/code&gt;. I got to see some really beautifully written code by &lt;a href=&quot;https://github.com/rcurtin&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Ryan&lt;/a&gt;
+and Keon. My mentor told me in the start of the project that, “your project is a bit different as
+it involves more of reading others code and making changes to it rather than writing your own code
+from strach”. Well now I am understanding what &lt;a href=&quot;https://github.com/shrit&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Omar&lt;/a&gt; meant.&lt;/p&gt;
+&lt;p&gt;I think I should write another article totally dedicated to &lt;code class=&quot;language-text&quot;&gt;DatasetMapper&lt;/code&gt; talking about how it
+works and what it adds to mlpack. Also it’s not at all fair that such well written implementation
+is not being noticed by the mlpack users.&lt;/p&gt;
+&lt;p&gt;Currently &lt;code class=&quot;language-text&quot;&gt;DatasetMapper&lt;/code&gt; uses the parser based on &lt;code class=&quot;language-text&quot;&gt;boost&lt;/code&gt;. Our goal is to remove all the boost part
+and replace it with our new parser’s fucntionality.&lt;/p&gt;
+&lt;p&gt;Code that loads the data and creates the &lt;code class=&quot;language-text&quot;&gt;DatasetMapper&lt;/code&gt; object resides in &lt;code class=&quot;language-text&quot;&gt;load_csv.hpp&lt;/code&gt;
+(master branch). We have to types of parse here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TransposeParse&lt;/li&gt;
+&lt;li&gt;NonTransposeParse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Depending on the type of parse we have two other ulitity fucntions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GetMatrixSize&lt;/li&gt;
+&lt;li&gt;GetTransposeMatrixSize&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Curently I am done refactoring the above mentioned utility fucntions. I am able to build mlpack
+after refactoring but that only confirms the syntactical part of the code. I am getting some issues
+in running the tests. &lt;/p&gt;
+&lt;p&gt;When &lt;code class=&quot;language-text&quot;&gt;Load()&lt;/code&gt; is being called from &lt;code class=&quot;language-text&quot;&gt;load_save_test.cpp&lt;/code&gt; it is not selecting the proper overload
+in case of sparse matrix. It is calling the overload that is for dense matrix and therefore it
+is throwing errors. Solving this error might mean I have to revisit the SFINAE.&lt;/p&gt;
+&lt;p&gt;The issue is due to changes in the design of the code. I hope to solve the error and underlying
+issue in the coming week so  I can test the parser properly as something like  parser requires
+extensive testing so that we don’t miss any use case.&lt;/p&gt;
+&lt;p&gt;I think that would be it for this week, I hope I can come up with an article on &lt;code class=&quot;language-text&quot;&gt;DatasetMapper&lt;/code&gt;
+with the next week’s update.&lt;/p&gt;
+&lt;p&gt;PS. This week was very exhaustive as I was relocating, so I had to take some days off the project.
+Thank you &lt;a href=&quot;https://github.com/shrit&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Omar&lt;/a&gt; for your continous support though out the phase.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Experience: Week Four]]></title><description><![CDATA[One month update!!! Things are going as planned, although I really feel might have worked a little bit faster but my mentor made me understand that estimating development time is not easy and there will be many things which we don't see at the start of the project. You learn from experiences so lets keep coding!!!]]></description><link>https://lumen.netlify.com/posts/week-four</link><guid isPermaLink="false">https://lumen.netlify.com/posts/week-four</guid><pubDate>Sun, 04 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQklEQVQ4y5VUWYviQBDudJtrjLk8RjzQicaArA/ig6IIPnjAuK4weIIMi4ooui+OiLvCvvi6f8B/u2XHOA7jsjNFCN3V9dX3VVcqCN0yhr6/ItS42n7I7FDM8y+C8EMUEc9/Ds9xnGVZPM8LgpCyLJbjPszMsoZpSm63vZVlOR2Pu/6vlmEkhH56PJYknZTb+hGacVyWkIvnn6UmNO0XIREHBhYJh9OSZAWDblm+XTzDnJy63x+Lx69zBSKRaDQKC5Zlk6Z5R/E3OAE0kmUWn/gI9ZQI+a2q2El9Lwg9TbujVG8TsOwXXW9wnE/TLuA8QltRVDweW5uK0BMhMVV9Kx7jh2RSpbAHw1B8vkshDCEJuHmKtz2xWEzz+89bcDyKYlpRzgoIefJ67Quz+Q2e/y7LgqOWw/iPohSQE9GGfBcR8FUyTA5UYGyD7xGqIyQ6AdDwFULZ2w2j6f2BQNi59s+Z3d5vXu8z/SqZd7197zlx2obp5hGhF6cljKPoWt2rwQy4XC5RFDHG1WoV5gGGAR6IkyTJjoZTWNdqNTiF4DOyUqmsVqvpdDqZTMrlcq/Xa7fb4Ol0OrquLxaLZrNpGMZyuSwUCrPZDLYwc2fweDwuFosAzufzgGk0GpvNJpPJjEajwWAAubbb7W63SyQSEHw8Hg+Hw6v4Vqtlmma9Xk+lUv1+H8ghxX6/BySQr9fr+XwO6oA5l8t1u93hcJjNOs2CAqBU+83RGy6VSnAMtcE6GAzy9GcSCoVUVQVCiHTTaf8LdH5P2z6f/EcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            alt=&quot;mlpack-logo.png&quot;
+            title=&quot;mlpack-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVQoz41Pu07DQBD059Ag0VAhBFT8ATUSDQ1fAA0l4kuo+ACgQCgQGQcURYHIj3MimfghO44fhKzvYTYmOgUIIaO71dzuzWhWYbxcHqKCfCrNHhROr8xNe5Ca5AWCoO/7aZqGYRjHAwTyLMuwOo4TRRFyHLmuSylVVP0jub0qvcuLJ1+7uaZmp/vWNw3dti1id4llEUJQ41RAL8/z9AroovBpbDF85z9XEGO8i2LL/iwRI8KGGrwesbgmRtaXTNbf4nLaFwwLJWdwv1rUVuBhrTBOvrvPE1cfJrlZ0oDWPqgb0NidnOYei+/k9B8xzzvQPoTHbdB2oL5etA948ryEWMa2z8fqFmYGdZOap8vFlg4Q8FwH45ilLeRzlX+KZ7YQC+afwIVvbtxrghYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            alt=&quot;gsoc-logo.png&quot;
+            title=&quot;gsoc-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This marks the end of first month on GSoC 2021. As planned we were able to adapt armadillo’s parser.
+Most of the work on the parser is done. There is still scope for some design improvements which we
+will surely address later.&lt;/p&gt;
+&lt;p&gt;Earlier we created new file for the parser but later we decided it makes more sense to keep everything
+in &lt;code class=&quot;language-text&quot;&gt;load_csv.hpp&lt;/code&gt;. So now &lt;code class=&quot;language-text&quot;&gt;load_csv.hpp&lt;/code&gt; contains the parser and we removed &lt;code class=&quot;language-text&quot;&gt;csv_parser.hpp&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;It was a great a month of learning, although I believe that I could have done soo much more than what
+I was able to do. I will try to be more regular and dedicated towards the project from now on. Once
+again I would like to thank my mentor for being very patient and supportive.&lt;/p&gt;
+&lt;p&gt;Now that we have our numeric parser ready I think it’s time to start working on adapting it for
+categorical data. &lt;/p&gt;
+&lt;p&gt;In mlpack we have a class called &lt;code class=&quot;language-text&quot;&gt;DatasetMapper&lt;/code&gt; which holds information about a dataset. This is useful
+when the dataset contains categorical non-numeric features that needs to be mapped to categorical numeric
+features.&lt;/p&gt;
+&lt;p&gt;Our goal for the coming days is to integrate the &lt;code class=&quot;language-text&quot;&gt;DatasetMapper&lt;/code&gt; with the new parser, so that we can load
+categorical non-numeric data as well.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Experience: Week Three]]></title><description><![CDATA[This was a nice week. We removed some files which were not needed anymore, but also got some errors in the process, part of the job. Got introduced to SFINAE, awesome concept.]]></description><link>https://lumen.netlify.com/posts/week-three</link><guid isPermaLink="false">https://lumen.netlify.com/posts/week-three</guid><pubDate>Sun, 27 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQklEQVQ4y5VUWYviQBDudJtrjLk8RjzQicaArA/ig6IIPnjAuK4weIIMi4ooui+OiLvCvvi6f8B/u2XHOA7jsjNFCN3V9dX3VVcqCN0yhr6/ItS42n7I7FDM8y+C8EMUEc9/Ds9xnGVZPM8LgpCyLJbjPszMsoZpSm63vZVlOR2Pu/6vlmEkhH56PJYknZTb+hGacVyWkIvnn6UmNO0XIREHBhYJh9OSZAWDblm+XTzDnJy63x+Lx69zBSKRaDQKC5Zlk6Z5R/E3OAE0kmUWn/gI9ZQI+a2q2El9Lwg9TbujVG8TsOwXXW9wnE/TLuA8QltRVDweW5uK0BMhMVV9Kx7jh2RSpbAHw1B8vkshDCEJuHmKtz2xWEzz+89bcDyKYlpRzgoIefJ67Quz+Q2e/y7LgqOWw/iPohSQE9GGfBcR8FUyTA5UYGyD7xGqIyQ6AdDwFULZ2w2j6f2BQNi59s+Z3d5vXu8z/SqZd7197zlx2obp5hGhF6cljKPoWt2rwQy4XC5RFDHG1WoV5gGGAR6IkyTJjoZTWNdqNTiF4DOyUqmsVqvpdDqZTMrlcq/Xa7fb4Ol0OrquLxaLZrNpGMZyuSwUCrPZDLYwc2fweDwuFosAzufzgGk0GpvNJpPJjEajwWAAubbb7W63SyQSEHw8Hg+Hw6v4Vqtlmma9Xk+lUv1+H8ghxX6/BySQr9fr+XwO6oA5l8t1u93hcJjNOs2CAqBU+83RGy6VSnAMtcE6GAzy9GcSCoVUVQVCiHTTaf8LdH5P2z6f/EcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            alt=&quot;mlpack-logo.png&quot;
+            title=&quot;mlpack-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVQoz41Pu07DQBD059Ag0VAhBFT8ATUSDQ1fAA0l4kuo+ACgQCgQGQcURYHIj3MimfghO44fhKzvYTYmOgUIIaO71dzuzWhWYbxcHqKCfCrNHhROr8xNe5Ca5AWCoO/7aZqGYRjHAwTyLMuwOo4TRRFyHLmuSylVVP0jub0qvcuLJ1+7uaZmp/vWNw3dti1id4llEUJQ41RAL8/z9AroovBpbDF85z9XEGO8i2LL/iwRI8KGGrwesbgmRtaXTNbf4nLaFwwLJWdwv1rUVuBhrTBOvrvPE1cfJrlZ0oDWPqgb0NidnOYei+/k9B8xzzvQPoTHbdB2oL5etA948ryEWMa2z8fqFmYGdZOap8vFlg4Q8FwH45ilLeRzlX+KZ7YQC+afwIVvbtxrghYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            alt=&quot;gsoc-logo.png&quot;
+            title=&quot;gsoc-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This was an exciting week. I was finally going to remove &lt;code class=&quot;language-text&quot;&gt;load.cpp&lt;/code&gt; but well, when does it go according to plan.
+As soon as I removed &lt;code class=&quot;language-text&quot;&gt;load.cpp&lt;/code&gt; I was bombarded with include errors(which was expected). Upon solving some we realised that the &lt;code class=&quot;language-text&quot;&gt;load.hpp&lt;/code&gt; might require some changes in the way it defines fucntions. At this point &lt;a href=&quot;https://github.com/shrit&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Omar&lt;/a&gt; suggested to use &lt;code class=&quot;language-text&quot;&gt;SFINAE&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;SFINAE&lt;/code&gt;(substituion failure is not an error) applies during overload resolution of function templates: When substituting the explicitly specified or deduced type for the template parameter fails, the specialization is discarded from the overload set instead of causing a compile error.&lt;/p&gt;
+&lt;p&gt;This feature is used in template metaprogramming.&lt;/p&gt;
+&lt;p&gt;Here is a small usecase&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;template&amp;lt;typename T&gt;
+std::enable_if_t&amp;lt;std::is_integral&amp;lt;T&gt;::value&gt; f(T t){
+    //integral version
+}
+template&amp;lt;typename T&gt;
+std::enable_if_t&amp;lt;std::is_floating_point&amp;lt;T&gt;::value&gt; f(T t){
+    //floating point version
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can see &lt;a href=&quot;https://github.com/mlpack/mlpack/wiki/DesignGuidelines#template-metaprogramming-and-sfinae&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;here&lt;/a&gt; how mlpack utilizes &lt;code class=&quot;language-text&quot;&gt;SFINAE&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This was a new concept for me. Omar helped me out with a basic example to get me started on it. After some initial struggle and understanding thanks to &lt;a href=&quot;https://github.com/rcurtin&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Ryan&lt;/a&gt; who took out time and took a small 15 minute session on &lt;code class=&quot;language-text&quot;&gt;SFINAE&lt;/code&gt; and how it is used in mlpack.&lt;/p&gt;
+&lt;p&gt;I have my concepts a bit clear now, but this task made me realise that there is a lot in C++ which I still need to learn. To follow up on this I’ve decided to dedicate some time daily to study modern C++.&lt;/p&gt;
+&lt;p&gt;I found this &lt;a href=&quot;https://www.youtube.com/user/CppCon/videos&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;YT Channel&lt;/a&gt; very helpful to get a deep dive on the concepts. They also have their github repo links which contains presentaions and other materials used in the conferences.&lt;/p&gt;
+&lt;p&gt;Next week we are planning to start removing the &lt;code class=&quot;language-text&quot;&gt;boost::spirits&lt;/code&gt; and connecting the &lt;code class=&quot;language-text&quot;&gt;DatasetMapper&lt;/code&gt; with the new parser’s implementation. I will also update more on how I handled &lt;code class=&quot;language-text&quot;&gt;SFINAE&lt;/code&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Experience: Week Two]]></title><description><![CDATA[This is two week update on my project. I added some new fucntions to the library, nothing complex just some utility ones.]]></description><link>https://lumen.netlify.com/posts/week-two</link><guid isPermaLink="false">https://lumen.netlify.com/posts/week-two</guid><pubDate>Sun, 20 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQklEQVQ4y5VUWYviQBDudJtrjLk8RjzQicaArA/ig6IIPnjAuK4weIIMi4ooui+OiLvCvvi6f8B/u2XHOA7jsjNFCN3V9dX3VVcqCN0yhr6/ItS42n7I7FDM8y+C8EMUEc9/Ds9xnGVZPM8LgpCyLJbjPszMsoZpSm63vZVlOR2Pu/6vlmEkhH56PJYknZTb+hGacVyWkIvnn6UmNO0XIREHBhYJh9OSZAWDblm+XTzDnJy63x+Lx69zBSKRaDQKC5Zlk6Z5R/E3OAE0kmUWn/gI9ZQI+a2q2El9Lwg9TbujVG8TsOwXXW9wnE/TLuA8QltRVDweW5uK0BMhMVV9Kx7jh2RSpbAHw1B8vkshDCEJuHmKtz2xWEzz+89bcDyKYlpRzgoIefJ67Quz+Q2e/y7LgqOWw/iPohSQE9GGfBcR8FUyTA5UYGyD7xGqIyQ6AdDwFULZ2w2j6f2BQNi59s+Z3d5vXu8z/SqZd7197zlx2obp5hGhF6cljKPoWt2rwQy4XC5RFDHG1WoV5gGGAR6IkyTJjoZTWNdqNTiF4DOyUqmsVqvpdDqZTMrlcq/Xa7fb4Ol0OrquLxaLZrNpGMZyuSwUCrPZDLYwc2fweDwuFosAzufzgGk0GpvNJpPJjEajwWAAubbb7W63SyQSEHw8Hg+Hw6v4Vqtlmma9Xk+lUv1+H8ghxX6/BySQr9fr+XwO6oA5l8t1u93hcJjNOs2CAqBU+83RGy6VSnAMtcE6GAzy9GcSCoVUVQVCiHTTaf8LdH5P2z6f/EcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            alt=&quot;mlpack-logo.png&quot;
+            title=&quot;mlpack-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVQoz41Pu07DQBD059Ag0VAhBFT8ATUSDQ1fAA0l4kuo+ACgQCgQGQcURYHIj3MimfghO44fhKzvYTYmOgUIIaO71dzuzWhWYbxcHqKCfCrNHhROr8xNe5Ca5AWCoO/7aZqGYRjHAwTyLMuwOo4TRRFyHLmuSylVVP0jub0qvcuLJ1+7uaZmp/vWNw3dti1id4llEUJQ41RAL8/z9AroovBpbDF85z9XEGO8i2LL/iwRI8KGGrwesbgmRtaXTNbf4nLaFwwLJWdwv1rUVuBhrTBOvrvPE1cfJrlZ0oDWPqgb0NidnOYei+/k9B8xzzvQPoTHbdB2oL5etA948ryEWMa2z8fqFmYGdZOap8vFlg4Q8FwH45ilLeRzlX+KZ7YQC+afwIVvbtxrghYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            alt=&quot;gsoc-logo.png&quot;
+            title=&quot;gsoc-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;So this is a 2 week completion update. &lt;/p&gt;
+&lt;p&gt;I completed the implementation of types in mlpack by creating a new file in &lt;code class=&quot;language-text&quot;&gt;mlpack/core/data/&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;types.hpp&lt;/li&gt;
+&lt;li&gt;types_impl.hpp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Currently these files have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;enum structure for valid file types&lt;/li&gt;
+&lt;li&gt;a convert fucntion which converts &lt;code class=&quot;language-text&quot;&gt;arma::file_type&lt;/code&gt; to &lt;code class=&quot;language-text&quot;&gt;mlpack::file_type&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This week was more about restructuring the existing code and changing the design a bit. As I have mentioned already that we are chaning the template parameter from &lt;code class=&quot;language-text&quot;&gt;eT&lt;/code&gt; to &lt;code class=&quot;language-text&quot;&gt;MatType&lt;/code&gt; this will require some modifications in the design as well.&lt;/p&gt;
+&lt;p&gt;Files which required changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;save.hpp&lt;/li&gt;
+&lt;li&gt;save_impl.hpp&lt;/li&gt;
+&lt;li&gt;detect&lt;em&gt;file&lt;/em&gt;type.cpp&lt;/li&gt;
+&lt;li&gt;detect&lt;em&gt;file&lt;/em&gt;type.hpp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As we are now making sure that user can use any type of matrix, user should also be able to save any kind of matrix thus changes in the structure of &lt;code class=&quot;language-text&quot;&gt;save()&lt;/code&gt; as well. Most replacements are easy and just to make the fucntion more generic.&lt;/p&gt;
+&lt;p&gt;Plan for the coming week is to remove the &lt;code class=&quot;language-text&quot;&gt;load.cpp&lt;/code&gt;. This should not be much difficult, I am hoping to encounter some include errors.&lt;/p&gt;
+&lt;p&gt;Let’s see how it goes!!!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Experience: Week One]]></title><description><![CDATA[My expeience of week one working on GSoC project with mlpack. There was soo much of discussion with my mentor regarding the goals of the project and what really the project means.]]></description><link>https://lumen.netlify.com/posts/week-one</link><guid isPermaLink="false">https://lumen.netlify.com/posts/week-one</guid><pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQklEQVQ4y5VUWYviQBDudJtrjLk8RjzQicaArA/ig6IIPnjAuK4weIIMi4ooui+OiLvCvvi6f8B/u2XHOA7jsjNFCN3V9dX3VVcqCN0yhr6/ItS42n7I7FDM8y+C8EMUEc9/Ds9xnGVZPM8LgpCyLJbjPszMsoZpSm63vZVlOR2Pu/6vlmEkhH56PJYknZTb+hGacVyWkIvnn6UmNO0XIREHBhYJh9OSZAWDblm+XTzDnJy63x+Lx69zBSKRaDQKC5Zlk6Z5R/E3OAE0kmUWn/gI9ZQI+a2q2El9Lwg9TbujVG8TsOwXXW9wnE/TLuA8QltRVDweW5uK0BMhMVV9Kx7jh2RSpbAHw1B8vkshDCEJuHmKtz2xWEzz+89bcDyKYlpRzgoIefJ67Quz+Q2e/y7LgqOWw/iPohSQE9GGfBcR8FUyTA5UYGyD7xGqIyQ6AdDwFULZ2w2j6f2BQNi59s+Z3d5vXu8z/SqZd7197zlx2obp5hGhF6cljKPoWt2rwQy4XC5RFDHG1WoV5gGGAR6IkyTJjoZTWNdqNTiF4DOyUqmsVqvpdDqZTMrlcq/Xa7fb4Ol0OrquLxaLZrNpGMZyuSwUCrPZDLYwc2fweDwuFosAzufzgGk0GpvNJpPJjEajwWAAubbb7W63SyQSEHw8Hg+Hw6v4Vqtlmma9Xk+lUv1+H8ghxX6/BySQr9fr+XwO6oA5l8t1u93hcJjNOs2CAqBU+83RGy6VSnAMtcE6GAzy9GcSCoVUVQVCiHTTaf8LdH5P2z6f/EcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            alt=&quot;mlpack-logo.png&quot;
+            title=&quot;mlpack-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVQoz41Pu07DQBD059Ag0VAhBFT8ATUSDQ1fAA0l4kuo+ACgQCgQGQcURYHIj3MimfghO44fhKzvYTYmOgUIIaO71dzuzWhWYbxcHqKCfCrNHhROr8xNe5Ca5AWCoO/7aZqGYRjHAwTyLMuwOo4TRRFyHLmuSylVVP0jub0qvcuLJ1+7uaZmp/vWNw3dti1id4llEUJQ41RAL8/z9AroovBpbDF85z9XEGO8i2LL/iwRI8KGGrwesbgmRtaXTNbf4nLaFwwLJWdwv1rUVuBhrTBOvrvPE1cfJrlZ0oDWPqgb0NidnOYei+/k9B8xzzvQPoTHbdB2oL5etA948ryEWMa2z8fqFmYGdZOap8vFlg4Q8FwH45ilLeRzlX+KZ7YQC+afwIVvbtxrghYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            alt=&quot;gsoc-logo.png&quot;
+            title=&quot;gsoc-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Today marks the end of 1st week of GSoC 2021. This week I worked on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adapted the csv parser for mlpack.&lt;/li&gt;
+&lt;li&gt;Made some minor changes in load fucntion to enable the calling of new parser.&lt;/li&gt;
+&lt;li&gt;Created &lt;code class=&quot;language-text&quot;&gt;file_type&lt;/code&gt; for mlpack.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The main goal here is to make the parser as generic as possible. &lt;a href=&quot;https://github.com/conradsnicta&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Cornad&lt;/a&gt; suggested that I should not use the arma fucntions which are not present in public API as they might get changed anytime which might lead to issues in future. So, we decided to either rewrite those for mlpack or we can use libraries like &lt;code class=&quot;language-text&quot;&gt;type_traits&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Changes in the file structre:
+I added 2 new files in &lt;code class=&quot;language-text&quot;&gt;mlpack/core/data/&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;csv_parser.hpp&lt;/li&gt;
+&lt;li&gt;csv&lt;em&gt;parser&lt;/em&gt;impl.hpp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Changes in user API:
+Currently mlpack relies on armadillo for linear algebra operations, but what if someone want to use some other library? Following on this idea we make a small change in the user facing API.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;template&amp;lt;typename eT&gt;
+bool Load(const std::string&amp;amp; filename,
+          arma::Mat&amp;lt;eT&gt;&amp;amp; matrix,
+          const bool fatal = false,
+          const bool transpose = true,
+          const arma::file_type inputLoadType = arma::auto_detect);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Currently Load fucntion loads an arma matrix from file. We have a template parameter eT which basically is the type of data we want to store in the matrix. But now we are planning to pass the whole martix as the template parameter.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;template&amp;lt;typename MatType&gt;
+bool LoadCSVV(MatType&amp;amp; x, std::fstream&amp;amp; f, std::string&amp;amp;);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can see here that we have &lt;code class=&quot;language-text&quot;&gt;MatType&lt;/code&gt; as the template parameter, so user can basically have any matrix.&lt;/p&gt;
+&lt;p&gt;Apart from these I had to make some changes in &lt;code class=&quot;language-text&quot;&gt;load_impl.hpp&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/mlpack/mlpack/pull/2942&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Link&lt;/a&gt; to my PR, you can follow the discussion there if you want.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/shrit&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Omar&lt;/a&gt; helped me alot by solving my doubts whenever I got stuck, but I still think I should be asking more doubts. So that’s the goal for the coming week, &lt;em&gt;Ask as many doubts as you can!!!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I am planing to write another post on monday which will talk about what I am planning to do this week. Also I want to improve the look of the blogs a bit, so lets see how it goes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Community Bonding]]></title><description><![CDATA[A post about mlpack community and how open source impact me as a developer and as a person. You interact with a lot of people and that too amazing people. Looking forward to this amazing journey]]></description><link>https://lumen.netlify.com/posts/community-bonding</link><guid isPermaLink="false">https://lumen.netlify.com/posts/community-bonding</guid><pubDate>Mon, 07 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQklEQVQ4y5VUWYviQBDudJtrjLk8RjzQicaArA/ig6IIPnjAuK4weIIMi4ooui+OiLvCvvi6f8B/u2XHOA7jsjNFCN3V9dX3VVcqCN0yhr6/ItS42n7I7FDM8y+C8EMUEc9/Ds9xnGVZPM8LgpCyLJbjPszMsoZpSm63vZVlOR2Pu/6vlmEkhH56PJYknZTb+hGacVyWkIvnn6UmNO0XIREHBhYJh9OSZAWDblm+XTzDnJy63x+Lx69zBSKRaDQKC5Zlk6Z5R/E3OAE0kmUWn/gI9ZQI+a2q2El9Lwg9TbujVG8TsOwXXW9wnE/TLuA8QltRVDweW5uK0BMhMVV9Kx7jh2RSpbAHw1B8vkshDCEJuHmKtz2xWEzz+89bcDyKYlpRzgoIefJ67Quz+Q2e/y7LgqOWw/iPohSQE9GGfBcR8FUyTA5UYGyD7xGqIyQ6AdDwFULZ2w2j6f2BQNi59s+Z3d5vXu8z/SqZd7197zlx2obp5hGhF6cljKPoWt2rwQy4XC5RFDHG1WoV5gGGAR6IkyTJjoZTWNdqNTiF4DOyUqmsVqvpdDqZTMrlcq/Xa7fb4Ol0OrquLxaLZrNpGMZyuSwUCrPZDLYwc2fweDwuFosAzufzgGk0GpvNJpPJjEajwWAAubbb7W63SyQSEHw8Hg+Hw6v4Vqtlmma9Xk+lUv1+H8ghxX6/BySQr9fr+XwO6oA5l8t1u93hcJjNOs2CAqBU+83RGy6VSnAMtcE6GAzy9GcSCoVUVQVCiHTTaf8LdH5P2z6f/EcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            alt=&quot;mlpack-logo.png&quot;
+            title=&quot;mlpack-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVQoz41Pu07DQBD059Ag0VAhBFT8ATUSDQ1fAA0l4kuo+ACgQCgQGQcURYHIj3MimfghO44fhKzvYTYmOgUIIaO71dzuzWhWYbxcHqKCfCrNHhROr8xNe5Ca5AWCoO/7aZqGYRjHAwTyLMuwOo4TRRFyHLmuSylVVP0jub0qvcuLJ1+7uaZmp/vWNw3dti1id4llEUJQ41RAL8/z9AroovBpbDF85z9XEGO8i2LL/iwRI8KGGrwesbgmRtaXTNbf4nLaFwwLJWdwv1rUVuBhrTBOvrvPE1cfJrlZ0oDWPqgb0NidnOYei+/k9B8xzzvQPoTHbdB2oL5etA948ryEWMa2z8fqFmYGdZOap8vFlg4Q8FwH45ilLeRzlX+KZ7YQC+afwIVvbtxrghYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            alt=&quot;gsoc-logo.png&quot;
+            title=&quot;gsoc-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Mlpack is an awesome community. We also have a tradition of having video meet-up on 1st and 3rd friday of every month.
+&lt;a href=&quot;https://github.com/zoq&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Marcus Edel&lt;/a&gt; sent us a detailed mail about how mlpack goes around GSoC and some other useful information.
+We also had a kickoff meeting which was fun.&lt;/p&gt;
+&lt;p&gt;Key takes from the meeting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Never hesitate in asking doubts&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/zoq&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Marcus’s&lt;/a&gt; 15 min rule&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;15 min rule: If you are stuck on a problem, dedicate 15 mins with full concentration, and if you still can’t solve it then ask. Don’t hesitate in asking doubts.
+15 is not a fixed number, you can be flexible accordingly.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This year mlpack has selected 8 students. We had some fun introductions and some general discussion followed by a great presentation
+by &lt;a href=&quot;https://github.com/rcurtin&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Ryan Curtin&lt;/a&gt; on how the program will proceed.&lt;/p&gt;
+&lt;p&gt;I also had a meeting with my mentor &lt;a href=&quot;https://github.com/shrit&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Omar Shrit&lt;/a&gt;. We discussed about embedded systems and rasberry pi and
+some more project specific discussion.&lt;/p&gt;
+&lt;p&gt;I am very glad that I am part of such a wonderful community.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hooray!!! GSoC 2021 @ Mlpack]]></title><description><![CDATA[I was soo happy when I got the mail that this year I will work with Mlpack as my GSoC project. This is my first time getting accepted at GSoC and feels awesome to be with mlpack.]]></description><link>https://lumen.netlify.com/posts/gsoc-2021-mlpack</link><guid isPermaLink="false">https://lumen.netlify.com/posts/gsoc-2021-mlpack</guid><pubDate>Tue, 18 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQklEQVQ4y5VUWYviQBDudJtrjLk8RjzQicaArA/ig6IIPnjAuK4weIIMi4ooui+OiLvCvvi6f8B/u2XHOA7jsjNFCN3V9dX3VVcqCN0yhr6/ItS42n7I7FDM8y+C8EMUEc9/Ds9xnGVZPM8LgpCyLJbjPszMsoZpSm63vZVlOR2Pu/6vlmEkhH56PJYknZTb+hGacVyWkIvnn6UmNO0XIREHBhYJh9OSZAWDblm+XTzDnJy63x+Lx69zBSKRaDQKC5Zlk6Z5R/E3OAE0kmUWn/gI9ZQI+a2q2El9Lwg9TbujVG8TsOwXXW9wnE/TLuA8QltRVDweW5uK0BMhMVV9Kx7jh2RSpbAHw1B8vkshDCEJuHmKtz2xWEzz+89bcDyKYlpRzgoIefJ67Quz+Q2e/y7LgqOWw/iPohSQE9GGfBcR8FUyTA5UYGyD7xGqIyQ6AdDwFULZ2w2j6f2BQNi59s+Z3d5vXu8z/SqZd7197zlx2obp5hGhF6cljKPoWt2rwQy4XC5RFDHG1WoV5gGGAR6IkyTJjoZTWNdqNTiF4DOyUqmsVqvpdDqZTMrlcq/Xa7fb4Ol0OrquLxaLZrNpGMZyuSwUCrPZDLYwc2fweDwuFosAzufzgGk0GpvNJpPJjEajwWAAubbb7W63SyQSEHw8Hg+Hw6v4Vqtlmma9Xk+lUv1+H8ghxX6/BySQr9fr+XwO6oA5l8t1u93hcJjNOs2CAqBU+83RGy6VSnAMtcE6GAzy9GcSCoVUVQVCiHTTaf8LdH5P2z6f/EcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            alt=&quot;mlpack-logo.png&quot;
+            title=&quot;mlpack-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVQoz41Pu07DQBD059Ag0VAhBFT8ATUSDQ1fAA0l4kuo+ACgQCgQGQcURYHIj3MimfghO44fhKzvYTYmOgUIIaO71dzuzWhWYbxcHqKCfCrNHhROr8xNe5Ca5AWCoO/7aZqGYRjHAwTyLMuwOo4TRRFyHLmuSylVVP0jub0qvcuLJ1+7uaZmp/vWNw3dti1id4llEUJQ41RAL8/z9AroovBpbDF85z9XEGO8i2LL/iwRI8KGGrwesbgmRtaXTNbf4nLaFwwLJWdwv1rUVuBhrTBOvrvPE1cfJrlZ0oDWPqgb0NidnOYei+/k9B8xzzvQPoTHbdB2oL5etA948ryEWMa2z8fqFmYGdZOap8vFlg4Q8FwH45ilLeRzlX+KZ7YQC+afwIVvbtxrghYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            alt=&quot;gsoc-logo.png&quot;
+            title=&quot;gsoc-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I am very exicted to announce that my project &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#5302310432931840&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Replacing Boost Spirits&lt;/a&gt; has been accepted and this marks the start of an awesome summer. First of all thank you mlpack for choosing my proposal. Thank you &lt;a href=&quot;https://github.com/shrit&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Omar Shrit&lt;/a&gt; for providing insightful comments and suggestions on my draft proposal. My mentor will be &lt;a href=&quot;https://github.com/shrit&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Omar Shrit&lt;/a&gt; for this project. I will be working on replacing the boost spirits by implemnting a csv parser to increase performace and reduce binary footprint. We will be adapting &lt;a href=&quot;https://gitlab.com/conradsnicta/armadillo-code&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Armadillo’s&lt;/a&gt; csv parser for mlpack to be exact. Let’s have fun coding!!!&lt;/p&gt;</content:encoded></item></channel></rss>
