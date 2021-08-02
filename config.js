@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: '',
+  url: 'https://heisenbuug.github.io/',
   pathPrefix: '/',
   title: 'Blog by Gopi Tatiraju',
   subtitle: 'Computer Engineer | Open Source Developer',
@@ -26,7 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'Gopi Tatiraju',
-    photo: '/photo.jpg',
+    photo: 'photo.jpg',
     bio: 'Computer Engineer | Open Source Developer | Machine Learning | Finance',
     contacts: {
       email: 'deathcoderx@gmail.com',
