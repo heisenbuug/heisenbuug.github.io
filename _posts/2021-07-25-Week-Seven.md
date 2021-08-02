@@ -26,12 +26,17 @@ this was his exact comment
 ```
 In Armadillo 10.6 I've implemented a multi-threaded CSV reader with the help of OpenMP directives.
 
-The new code is in diskio::load_csv_ascii(), currently on [lines 1618-1761](https://gitlab.com/conradsnicta/armadillo-code/-/blob/10.6.x/include/armadillo_bits/diskio_meat.hpp#L1618-1761)
+The new code is in diskio::load_csv_ascii(), currently on lines 1618-1761
+https://gitlab.com/conradsnicta/armadillo-code/-/blob/10.6.x/include/armadillo_bits/diskio_meat.hpp#L1618-1761
 
 In essence, instead of converting each token directly after reading into a numerical value, all
 the tokens in each line are first read into an array. The stored tokens are then converted into
 numerical values, within a parallelised loop.
 ```
+
+We decided to work on this once we are able to integrate the current improved parser. This can be
+a great speed up to the parser and I am really looking forward to working on it. Thank you Conrad
+for reviewing the code and keeping an eye on the project.
 
 Also while testing we kinda discovered a small bug. I opened an issue for the same. You can have a
 look, [Mlpack not handling Quoted quotes](https://github.com/mlpack/mlpack/issues/3024)
