@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Gopi Tatiraju]]></title><description><![CDATA[Computer Engineer | Open Source Developer]]></description><link>https://lumen.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 02 Aug 2021 17:15:28 GMT</lastBuildDate><item><title><![CDATA[Experience: Week Seven]]></title><description><![CDATA[Nearly done with removing boost::spirit. Although I need to focus more on failing test cases and make necessary changes to the code. Boost was doing a lot of work behind the scenes, it kinda a lot of work to see and replace eveything but it's fun to explore soo much code.]]></description><link>https://lumen.netlify.com/posts/week-seven</link><guid isPermaLink="false">https://lumen.netlify.com/posts/week-seven</guid><pubDate>Sun, 25 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Gopi Tatiraju]]></title><description><![CDATA[Computer Engineer | Open Source Developer]]></description><link>https://lumen.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 02 Aug 2021 17:19:01 GMT</lastBuildDate><item><title><![CDATA[Experience: Week Seven]]></title><description><![CDATA[Nearly done with removing boost::spirit. Although I need to focus more on failing test cases and make necessary changes to the code. Boost was doing a lot of work behind the scenes, it kinda a lot of work to see and replace eveything but it's fun to explore soo much code.]]></description><link>https://lumen.netlify.com/posts/week-seven</link><guid isPermaLink="false">https://lumen.netlify.com/posts/week-seven</guid><pubDate>Sun, 25 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    href=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -15,18 +15,18 @@
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
               sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
             sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            src=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
             alt=&quot;mlpack-logo.png&quot;
             title=&quot;mlpack-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -41,7 +41,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    href=&quot;/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -52,24 +52,24 @@
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            src=&quot;/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
             alt=&quot;gsoc-logo.png&quot;
             title=&quot;gsoc-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -111,7 +111,7 @@ I will remove &lt;code class=&quot;language-text&quot;&gt;Load.cpp&lt;/code&gt; 
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    href=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -122,18 +122,18 @@ I will remove &lt;code class=&quot;language-text&quot;&gt;Load.cpp&lt;/code&gt; 
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
               sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
             sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            src=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
             alt=&quot;mlpack-logo.png&quot;
             title=&quot;mlpack-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -148,7 +148,7 @@ I will remove &lt;code class=&quot;language-text&quot;&gt;Load.cpp&lt;/code&gt; 
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    href=&quot;/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -159,24 +159,24 @@ I will remove &lt;code class=&quot;language-text&quot;&gt;Load.cpp&lt;/code&gt; 
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            src=&quot;/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
             alt=&quot;gsoc-logo.png&quot;
             title=&quot;gsoc-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -217,7 +217,7 @@ based on our new implementation.&lt;/p&gt;</content:encoded></item><item><title>
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    href=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -228,18 +228,18 @@ based on our new implementation.&lt;/p&gt;</content:encoded></item><item><title>
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
               sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
             sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            src=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
             alt=&quot;mlpack-logo.png&quot;
             title=&quot;mlpack-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -254,7 +254,7 @@ based on our new implementation.&lt;/p&gt;</content:encoded></item><item><title>
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    href=&quot;/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -265,24 +265,24 @@ based on our new implementation.&lt;/p&gt;</content:encoded></item><item><title>
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            src=&quot;/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
             alt=&quot;gsoc-logo.png&quot;
             title=&quot;gsoc-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -330,7 +330,7 @@ Thank you &lt;a href=&quot;https://github.com/shrit&quot; target=&quot;_blank&qu
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    href=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -341,18 +341,18 @@ Thank you &lt;a href=&quot;https://github.com/shrit&quot; target=&quot;_blank&qu
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
               sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
             sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            src=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
             alt=&quot;mlpack-logo.png&quot;
             title=&quot;mlpack-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -367,7 +367,7 @@ Thank you &lt;a href=&quot;https://github.com/shrit&quot; target=&quot;_blank&qu
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    href=&quot;/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -378,24 +378,24 @@ Thank you &lt;a href=&quot;https://github.com/shrit&quot; target=&quot;_blank&qu
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            src=&quot;/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
             alt=&quot;gsoc-logo.png&quot;
             title=&quot;gsoc-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -424,7 +424,7 @@ categorical non-numeric data as well.&lt;/p&gt;</content:encoded></item><item><t
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    href=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -435,18 +435,18 @@ categorical non-numeric data as well.&lt;/p&gt;</content:encoded></item><item><t
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
               sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
             sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            src=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
             alt=&quot;mlpack-logo.png&quot;
             title=&quot;mlpack-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -461,7 +461,7 @@ categorical non-numeric data as well.&lt;/p&gt;</content:encoded></item><item><t
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    href=&quot;/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -472,24 +472,24 @@ categorical non-numeric data as well.&lt;/p&gt;</content:encoded></item><item><t
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            src=&quot;/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
             alt=&quot;gsoc-logo.png&quot;
             title=&quot;gsoc-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -521,7 +521,7 @@ std::enable_if_t&amp;lt;std::is_floating_point&amp;lt;T&gt;::value&gt; f(T t){
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    href=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -532,18 +532,18 @@ std::enable_if_t&amp;lt;std::is_floating_point&amp;lt;T&gt;::value&gt; f(T t){
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
               sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
             sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            src=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
             alt=&quot;mlpack-logo.png&quot;
             title=&quot;mlpack-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -558,7 +558,7 @@ std::enable_if_t&amp;lt;std::is_floating_point&amp;lt;T&gt;::value&gt; f(T t){
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    href=&quot;/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -569,24 +569,24 @@ std::enable_if_t&amp;lt;std::is_floating_point&amp;lt;T&gt;::value&gt; f(T t){
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            src=&quot;/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
             alt=&quot;gsoc-logo.png&quot;
             title=&quot;gsoc-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -622,7 +622,7 @@ std::enable_if_t&amp;lt;std::is_floating_point&amp;lt;T&gt;::value&gt; f(T t){
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    href=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -633,18 +633,18 @@ std::enable_if_t&amp;lt;std::is_floating_point&amp;lt;T&gt;::value&gt; f(T t){
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
               sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
             sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            src=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
             alt=&quot;mlpack-logo.png&quot;
             title=&quot;mlpack-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -659,7 +659,7 @@ std::enable_if_t&amp;lt;std::is_floating_point&amp;lt;T&gt;::value&gt; f(T t){
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    href=&quot;/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -670,24 +670,24 @@ std::enable_if_t&amp;lt;std::is_floating_point&amp;lt;T&gt;::value&gt; f(T t){
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            src=&quot;/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
             alt=&quot;gsoc-logo.png&quot;
             title=&quot;gsoc-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -730,7 +730,7 @@ bool LoadCSVV(MatType&amp;amp; x, std::fstream&amp;amp; f, std::string&amp;amp;)
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    href=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -741,18 +741,18 @@ bool LoadCSVV(MatType&amp;amp; x, std::fstream&amp;amp; f, std::string&amp;amp;)
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
               sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
             sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            src=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
             alt=&quot;mlpack-logo.png&quot;
             title=&quot;mlpack-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -767,7 +767,7 @@ bool LoadCSVV(MatType&amp;amp; x, std::fstream&amp;amp; f, std::string&amp;amp;)
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    href=&quot;/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -778,24 +778,24 @@ bool LoadCSVV(MatType&amp;amp; x, std::fstream&amp;amp; f, std::string&amp;amp;)
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            src=&quot;/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
             alt=&quot;gsoc-logo.png&quot;
             title=&quot;gsoc-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -826,7 +826,7 @@ some more project specific discussion.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    href=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -837,18 +837,18 @@ some more project specific discussion.&lt;/p&gt;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
               sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
             sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            src=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
             alt=&quot;mlpack-logo.png&quot;
             title=&quot;mlpack-logo.png&quot;
             loading=&quot;lazy&quot;
@@ -863,7 +863,7 @@ some more project specific discussion.&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    href=&quot;/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -874,24 +874,24 @@ some more project specific discussion.&lt;/p&gt;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
           &lt;source
-              srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
               sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
               type=&quot;image/webp&quot;
             /&gt;
           &lt;source
-            srcset=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
-/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
             sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
             type=&quot;image/png&quot;
           /&gt;
           &lt;img
             class=&quot;gatsby-resp-image-image&quot;
-            src=&quot;/heisenbuug.github.io/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            src=&quot;/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
             alt=&quot;gsoc-logo.png&quot;
             title=&quot;gsoc-logo.png&quot;
             loading=&quot;lazy&quot;
