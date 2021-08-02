@@ -24,14 +24,16 @@ it is not breaking the code.
 [Conrad](https://github.com/conradsnicta) suggested another feature to speed up the parser,
 this was his exact comment
 ```
-In Armadillo 10.6 I've implemented a multi-threaded CSV reader with the help of OpenMP directives.
+In Armadillo 10.6 I've implemented a multi-threaded CSV reader with the help
+of OpenMP directives.
 
 The new code is in diskio::load_csv_ascii(), currently on lines 1618-1761
 https://gitlab.com/conradsnicta/armadillo-code/-/blob/10.6.x/include/armadillo_bits/diskio_meat.hpp#L1618-1761
 
-In essence, instead of converting each token directly after reading into a numerical value, all
-the tokens in each line are first read into an array. The stored tokens are then converted into
-numerical values, within a parallelised loop.
+In essence, instead of converting each token directly after reading into a
+numerical value, all the tokens in each line are first read into an array.
+The stored tokens are then converted into numerical values, within a
+parallelised loop.
 ```
 
 We decided to work on this once we are able to integrate the current improved parser. This can be
