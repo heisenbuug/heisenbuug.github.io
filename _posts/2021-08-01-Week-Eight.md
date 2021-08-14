@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "End of Week Seven"
+title: "End of Week Eight"
 date: 2021-08-01
 categories: gsoc
 ---
