@@ -1,16 +1,22 @@
----
-layout: post
-title: "End of Week Eight"
-date: 2021-08-01
-categories: gsoc
+title: "Experience: Week Eight"
+date: "2021-08-01"
+template: "post"
+draft: false
+slug: "week-eight"
+category: "GSoC"
+tags:
+  - "GSoC"
+  - "Open Source"
+  - "Mlpack"
+  - "Weekly update"
+description: "Exciting week. We removed Load.cpp.
+              Added new string algorithms. There
+              were awesome discussions on IRC. It's
+              great to be a part of this community."
 ---
 
-<p align="center">
-  <img src="/images/gsoc-logo.png" width=400 height=200>
-</p>
-<p align="center">
-  <img src="/images/mlpack-logo.png">
-</p>
+![mlpack-logo.png](/media/mlpack-logo.png)
+![gsoc-logo.png](/media/gsoc-logo.png)
 
 This was an exciting week. We were finally able to remove `Load.cpp`. There were some header
 related issues that we had to handle but nothing tough apart from that just remove it from
