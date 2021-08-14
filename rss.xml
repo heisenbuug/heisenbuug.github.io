@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Gopi Tatiraju]]></title><description><![CDATA[Computer Engineer | Open Source Developer]]></description><link>https://heisenbuug.github.io/</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 14 Aug 2021 16:25:57 GMT</lastBuildDate><item><title><![CDATA[Experience: Week Nine]]></title><description><![CDATA[Worked on categorical parse. Optimized the existing code and refactored a bit. There are some issues with sparse matrix but we will handle them soon. Everythings coming together!!!]]></description><link>https://heisenbuug.github.io//posts/week-nine</link><guid isPermaLink="false">https://heisenbuug.github.io//posts/week-nine</guid><pubDate>Sun, 08 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Gopi Tatiraju]]></title><description><![CDATA[Computer Engineer | Open Source Developer]]></description><link>https://heisenbuug.github.io/</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 14 Aug 2021 16:29:13 GMT</lastBuildDate><item><title><![CDATA[Experience: Week Nine]]></title><description><![CDATA[Worked on categorical parse. Optimized the existing code and refactored a bit. There are some issues with sparse matrix but we will handle them soon. Everythings coming together!!!]]></description><link>https://heisenbuug.github.io//posts/week-nine</link><guid isPermaLink="false">https://heisenbuug.github.io//posts/week-nine</guid><pubDate>Sun, 08 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
     &gt;
@@ -114,7 +114,116 @@ now we can remove the &lt;code class=&quot;language-text&quot;&gt;Load()&lt;/cod
 &lt;p&gt;There are some issues with removing the &lt;code class=&quot;language-text&quot;&gt;Load()&lt;/code&gt; for sp_mat as this logic
 only handles sparse matrix in &lt;code class=&quot;language-text&quot;&gt;csv&lt;/code&gt; format and not other formats like &lt;code class=&quot;language-text&quot;&gt;txt&lt;/code&gt;,
 &lt;code class=&quot;language-text&quot;&gt;bin&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;tsv&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;We will handle it but first let’s concentrate on &lt;code class=&quot;language-text&quot;&gt;csv parse&lt;/code&gt; only.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Experience: Week Seven]]></title><description><![CDATA[Nearly done with removing boost::spirit. Although I need to focus more on failing test cases and make necessary changes to the code. Boost was doing a lot of work behind the scenes, it kinda a lot of work to see and replace eveything but it's fun to explore soo much code.]]></description><link>https://heisenbuug.github.io//posts/week-seven</link><guid isPermaLink="false">https://heisenbuug.github.io//posts/week-seven</guid><pubDate>Sun, 25 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+&lt;p&gt;We will handle it but first let’s concentrate on &lt;code class=&quot;language-text&quot;&gt;csv parse&lt;/code&gt; only.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Experience: Week Eight]]></title><description><![CDATA[Exciting week. We removed Load.cpp. Added new string algorithms. There were awesome discussions on IRC. It's great to be a part of this community.]]></description><link>https://heisenbuug.github.io//posts/week-eight</link><guid isPermaLink="false">https://heisenbuug.github.io//posts/week-eight</guid><pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQklEQVQ4y5VUWYviQBDudJtrjLk8RjzQicaArA/ig6IIPnjAuK4weIIMi4ooui+OiLvCvvi6f8B/u2XHOA7jsjNFCN3V9dX3VVcqCN0yhr6/ItS42n7I7FDM8y+C8EMUEc9/Ds9xnGVZPM8LgpCyLJbjPszMsoZpSm63vZVlOR2Pu/6vlmEkhH56PJYknZTb+hGacVyWkIvnn6UmNO0XIREHBhYJh9OSZAWDblm+XTzDnJy63x+Lx69zBSKRaDQKC5Zlk6Z5R/E3OAE0kmUWn/gI9ZQI+a2q2El9Lwg9TbujVG8TsOwXXW9wnE/TLuA8QltRVDweW5uK0BMhMVV9Kx7jh2RSpbAHw1B8vkshDCEJuHmKtz2xWEzz+89bcDyKYlpRzgoIefJ67Quz+Q2e/y7LgqOWw/iPohSQE9GGfBcR8FUyTA5UYGyD7xGqIyQ6AdDwFULZ2w2j6f2BQNi59s+Z3d5vXu8z/SqZd7197zlx2obp5hGhF6cljKPoWt2rwQy4XC5RFDHG1WoV5gGGAR6IkyTJjoZTWNdqNTiF4DOyUqmsVqvpdDqZTMrlcq/Xa7fb4Ol0OrquLxaLZrNpGMZyuSwUCrPZDLYwc2fweDwuFosAzufzgGk0GpvNJpPJjEajwWAAubbb7W63SyQSEHw8Hg+Hw6v4Vqtlmma9Xk+lUv1+H8ghxX6/BySQr9fr+XwO6oA5l8t1u93hcJjNOs2CAqBU+83RGy6VSnAMtcE6GAzy9GcSCoVUVQVCiHTTaf8LdH5P2z6f/EcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/ba381/mlpack-logo.webp 200w&quot;
+              sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png 200w&quot;
+            sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/e157417900834ca0ad74a743cdca9c2c/772e8/mlpack-logo.png&quot;
+            alt=&quot;mlpack-logo.png&quot;
+            title=&quot;mlpack-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVQoz41Pu07DQBD059Ag0VAhBFT8ATUSDQ1fAA0l4kuo+ACgQCgQGQcURYHIj3MimfghO44fhKzvYTYmOgUIIaO71dzuzWhWYbxcHqKCfCrNHhROr8xNe5Ca5AWCoO/7aZqGYRjHAwTyLMuwOo4TRRFyHLmuSylVVP0jub0qvcuLJ1+7uaZmp/vWNw3dti1id4llEUJQ41RAL8/z9AroovBpbDF85z9XEGO8i2LL/iwRI8KGGrwesbgmRtaXTNbf4nLaFwwLJWdwv1rUVuBhrTBOvrvPE1cfJrlZ0oDWPqgb0NidnOYei+/k9B8xzzvQPoTHbdB2oL5etA948ryEWMa2z8fqFmYGdZOap8vFlg4Q8FwH45ilLeRzlX+KZ7YQC+afwIVvbtxrghYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ac56/gsoc-logo.webp 240w,
+/static/69890e8375c962492098a2e68e04661f/d3be9/gsoc-logo.webp 480w,
+/static/69890e8375c962492098a2e68e04661f/e46b2/gsoc-logo.webp 960w,
+/static/69890e8375c962492098a2e68e04661f/92f8c/gsoc-logo.webp 1200w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/69890e8375c962492098a2e68e04661f/8ff5a/gsoc-logo.png 240w,
+/static/69890e8375c962492098a2e68e04661f/e85cb/gsoc-logo.png 480w,
+/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png 960w,
+/static/69890e8375c962492098a2e68e04661f/c1b63/gsoc-logo.png 1200w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/69890e8375c962492098a2e68e04661f/d9199/gsoc-logo.png&quot;
+            alt=&quot;gsoc-logo.png&quot;
+            title=&quot;gsoc-logo.png&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This was an exciting week. We were finally able to remove &lt;code class=&quot;language-text&quot;&gt;Load.cpp&lt;/code&gt;. There were some header
+related issues that we had to handle but nothing tough apart from that just remove it from
+&lt;code class=&quot;language-text&quot;&gt;CMakelists.txt&lt;/code&gt; and we are good to go.&lt;/p&gt;
+&lt;p&gt;Talking about the failing cases, it seems that our new fucntion signature where we replaced
+&lt;code class=&quot;language-text&quot;&gt;eT&lt;/code&gt; with &lt;code class=&quot;language-text&quot;&gt;MatType&lt;/code&gt; was causing this issue. The main issue was that compiler was not able to
+understand the difference between the signature of &lt;code class=&quot;language-text&quot;&gt;Load&lt;/code&gt; for dense matrix and sparse matrix.
+For now we commented the code related to sparse matrix and decided that we will handle that
+later.&lt;/p&gt;
+&lt;p&gt;We also worked on adding some string-related algorithms to mlpack. We created a new file
+&lt;a href=&quot;https://github.com/mlpack/mlpack/blob/3be9474388a42f74be0f0119346080a539a05e6b/src/mlpack/core/data/string_algorithms.hpp&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;string_algorithms.hpp&lt;/code&gt;&lt;/a&gt; and added the same to &lt;code class=&quot;language-text&quot;&gt;CMakeList.txt&lt;/code&gt;. For start the file contains
+the string related fucntions which mlpack was utilizing from &lt;code class=&quot;language-text&quot;&gt;boost&lt;/code&gt;. List of functions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;trim&lt;/li&gt;
+&lt;li&gt;trim_if&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Replacing these two fucntionalities marks the end of &lt;code class=&quot;language-text&quot;&gt;boost::spirit&lt;/code&gt; in mlpack. We were able
+to remove &lt;code class=&quot;language-text&quot;&gt;boost&lt;/code&gt; from the &lt;code class=&quot;language-text&quot;&gt;csv parse&lt;/code&gt; and we will remove other fucntion soon.&lt;/p&gt;
+&lt;p&gt;Discussion is still goinging on about how to perfectly parse the categorical data. Specially
+data with embedded delim inside the string, ex &lt;code class=&quot;language-text&quot;&gt;1, 2, &quot;sting, with comma&quot;, 4&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Implementing the categorical parsing part is fun, there are soo many things we can do but
+currently we are sticking with implementing only the features that we had earlier and
+currate a list for future improvements.&lt;/p&gt;
+&lt;p&gt;I know it feels a bit bad to see that there is scope for improvement but not exploring it
+but &lt;a href=&quot;https://shrit.me/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Omar&lt;/a&gt; made me realize that this is part of software development process. The project
+is time constrained and first we need to finish and merge the parse and then we can think
+about improvements, which really seems logical and systematic.&lt;/p&gt;
+&lt;p&gt;Also in open-source maybe community maybe someone can come-up with a better solution so
+we should always give some time and discussion on what we are planning to accomplish.
+Mlpack is great, &lt;code class=&quot;language-text&quot;&gt;IRC&lt;/code&gt; is soo active and it’s alway some discussion that you can learn
+from.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Experience: Week Seven]]></title><description><![CDATA[Nearly done with removing boost::spirit. Although I need to focus more on failing test cases and make necessary changes to the code. Boost was doing a lot of work behind the scenes, it kinda a lot of work to see and replace eveything but it's fun to explore soo much code.]]></description><link>https://heisenbuug.github.io//posts/week-seven</link><guid isPermaLink="false">https://heisenbuug.github.io//posts/week-seven</guid><pubDate>Sun, 25 Jul 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 200px; &quot;
     &gt;
